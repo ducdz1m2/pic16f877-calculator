@@ -1,0 +1,395 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"1 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"1177 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memset.c
+[v _memset memset `(*.5v  1 e 1 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"23 C:\Users\chienham\MPLABXProjects\demo.X\newmain.c
+[v _stack_init stack_init `(v  1 e 1 0 ]
+"24
+[v _stack_empty stack_empty `(i  1 e 2 0 ]
+"25
+[v _stack_push stack_push `(v  1 e 1 0 ]
+"26
+[v _stack_pop stack_pop `(uc  1 e 1 0 ]
+"27
+[v _stack_peek stack_peek `(uc  1 e 1 0 ]
+"35
+[v _int_stack_init int_stack_init `(v  1 e 1 0 ]
+"36
+[v _int_stack_empty int_stack_empty `(i  1 e 2 0 ]
+"37
+[v _int_stack_push int_stack_push `(v  1 e 1 0 ]
+"38
+[v _int_stack_pop int_stack_pop `(i  1 e 2 0 ]
+"41
+[v _precedence precedence `(i  1 e 2 0 ]
+"46
+[v _infix_compare infix_compare `(i  1 e 2 0 ]
+"51
+[v _infix_to_postfix infix_to_postfix `(v  1 e 1 0 ]
+"83
+[v _postfix_cal postfix_cal `(i  1 e 2 0 ]
+"117
+[v _lcd_nibble lcd_nibble `(v  1 e 1 0 ]
+"124
+[v _lcd_pulse lcd_pulse `(v  1 e 1 0 ]
+"131
+[v _lcd_byte lcd_byte `(v  1 e 1 0 ]
+"139
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"152
+[v _lcd_write_char lcd_write_char `(v  1 e 1 0 ]
+"153
+[v _lcd_write_string lcd_write_string `(v  1 e 1 0 ]
+"164
+[v _main main `(v  1 e 1 0 ]
+"216 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S33 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"233
+[u S42 . 1 `S33 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES42  1 e 1 @6 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"153 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"185
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"156 C:\Users\chienham\MPLABXProjects\demo.X\newmain.c
+[v _keypad keypad `[4][4]uc  1 e 16 0 ]
+"164
+[v _main main `(v  1 e 1 0 ]
+{
+"190
+[v main@postfix postfix `[32]uc  1 a 32 0 ]
+"194
+[v main@result_str result_str `[10]uc  1 a 10 64 ]
+"192
+[v main@result result `i  1 a 2 74 ]
+"184
+[v main@key key `uc  1 a 1 80 ]
+"182
+[v main@col col `i  1 a 2 81 ]
+"177
+[v main@row row `i  1 a 2 78 ]
+"173
+[v main@mem mem `[32]uc  1 a 32 32 ]
+"174
+[v main@index index `i  1 a 2 76 ]
+"212
+} 0
+"9 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[u S645 . 2 `*.39uc 1 buffer 2 0 `*.1DCuc 1 source 1 0 ]
+"13
+[s S648 _IO_FILE 11 `S645 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S648  1 a 11 23 ]
+"12
+[v sprintf@ap ap `[1]*.4v  1 a 1 22 ]
+"9
+[v sprintf@s s `*.5uc  1 p 1 17 ]
+[v sprintf@fmt fmt `*.24DCuc  1 p 1 18 ]
+"23
+} 0
+"1817 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1820
+[v vfprintf@cfmt cfmt `*.24uc  1 a 1 13 ]
+[s S680 _IO_FILE 0 ]
+"1817
+[v vfprintf@fp fp `*.39S680  1 p 2 13 ]
+[v vfprintf@fmt fmt `*.24DCuc  1 p 1 15 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 16 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[u S693 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S693  1 a 4 8 ]
+"1179
+[v vfpfcnvrt@c c `uc  1 a 1 12 ]
+[v vfpfcnvrt@cp cp `*.24uc  1 a 1 7 ]
+"1180
+[v vfpfcnvrt@done done `a  1 a 1 6 ]
+[s S680 _IO_FILE 0 ]
+"1177
+[v vfpfcnvrt@fp fp `*.39S680  1 p 2 0 ]
+[v vfpfcnvrt@fmt fmt `*.30*.24uc  1 p 1 2 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 3 ]
+"1814
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[u S645 . 2 `*.39uc 1 buffer 2 0 `*.1DCuc 1 source 1 0 ]
+[s S648 _IO_FILE 11 `S645 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S648  1 p 2 2 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"1 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 6 ]
+"4
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"83 C:\Users\chienham\MPLABXProjects\demo.X\newmain.c
+[v _postfix_cal postfix_cal `(i  1 e 2 0 ]
+{
+"99
+[v postfix_cal@b b `i  1 a 2 29 ]
+"100
+[v postfix_cal@a a `i  1 a 2 27 ]
+"101
+[v postfix_cal@result result `i  1 a 2 23 ]
+[s S25 . 42 `[20]i 1 arr 40 0 `i 1 top 2 40 ]
+"84
+[v postfix_cal@s s `S25  1 a 42 31 ]
+"87
+[v postfix_cal@token token `[10]uc  1 a 10 13 ]
+"86
+[v postfix_cal@i i `i  1 a 2 73 ]
+"88
+[v postfix_cal@token_index token_index `i  1 a 2 25 ]
+"83
+[v postfix_cal@postfix postfix `*.5DCuc  1 p 1 11 ]
+"114
+} 0
+"37
+[v _int_stack_push int_stack_push `(v  1 e 1 0 ]
+{
+[s S25 . 42 `[20]i 1 arr 40 0 `i 1 top 2 40 ]
+[v int_stack_push@s s `*.39S25  1 p 2 0 ]
+[v int_stack_push@val val `i  1 p 2 2 ]
+} 0
+"38
+[v _int_stack_pop int_stack_pop `(i  1 e 2 0 ]
+{
+[s S25 . 42 `[20]i 1 arr 40 0 `i 1 top 2 40 ]
+[v int_stack_pop@s s `*.39S25  1 p 2 8 ]
+} 0
+"36
+[v _int_stack_empty int_stack_empty `(i  1 e 2 0 ]
+{
+[s S25 . 42 `[20]i 1 arr 40 0 `i 1 top 2 40 ]
+[v int_stack_empty@s s `*.39S25  1 p 2 0 ]
+} 0
+"35
+[v _int_stack_init int_stack_init `(v  1 e 1 0 ]
+{
+[s S25 . 42 `[20]i 1 arr 40 0 `i 1 top 2 40 ]
+[v int_stack_init@s s `*.39S25  1 p 2 0 ]
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+"7
+[v atoi@n n `i  1 a 2 11 ]
+"8
+[v atoi@neg neg `a  1 a 1 10 ]
+"5
+[v atoi@s s `*.4DCuc  1 p 1 6 ]
+"24
+} 0
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"3 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memset.c
+[v _memset memset `(*.5v  1 e 1 0 ]
+{
+"5
+[v memset@p p `*.5uc  1 a 1 5 ]
+"3
+[v memset@dest dest `*.5v  1 p 1 0 ]
+[v memset@c c `i  1 p 2 1 ]
+[v memset@n n `ui  1 p 2 3 ]
+"10
+} 0
+"153 C:\Users\chienham\MPLABXProjects\demo.X\newmain.c
+[v _lcd_write_string lcd_write_string `(v  1 e 1 0 ]
+{
+[v lcd_write_string@s s `*.5DCuc  1 p 1 7 ]
+} 0
+"152
+[v _lcd_write_char lcd_write_char `(v  1 e 1 0 ]
+{
+[v lcd_write_char@c c `uc  1 p 1 wreg ]
+[v lcd_write_char@c c `uc  1 p 1 wreg ]
+[v lcd_write_char@c c `uc  1 p 1 6 ]
+} 0
+"139
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"150
+} 0
+"131
+[v _lcd_byte lcd_byte `(v  1 e 1 0 ]
+{
+[v lcd_byte@byte byte `uc  1 p 1 wreg ]
+[v lcd_byte@byte byte `uc  1 p 1 wreg ]
+[v lcd_byte@mode mode `uc  1 p 1 3 ]
+[v lcd_byte@byte byte `uc  1 p 1 5 ]
+"137
+} 0
+"124
+[v _lcd_pulse lcd_pulse `(v  1 e 1 0 ]
+{
+"129
+} 0
+"117
+[v _lcd_nibble lcd_nibble `(v  1 e 1 0 ]
+{
+[v lcd_nibble@nibble nibble `uc  1 p 1 wreg ]
+[v lcd_nibble@nibble nibble `uc  1 p 1 wreg ]
+[v lcd_nibble@nibble nibble `uc  1 p 1 2 ]
+"122
+} 0
+"51
+[v _infix_to_postfix infix_to_postfix `(v  1 e 1 0 ]
+{
+[s S22 . 22 `[20]uc 1 arr 20 0 `i 1 top 2 20 ]
+"52
+[v infix_to_postfix@s s `S22  1 a 22 15 ]
+"54
+[v infix_to_postfix@i i `i  1 a 2 37 ]
+[v infix_to_postfix@j j `i  1 a 2 13 ]
+"51
+[v infix_to_postfix@infix infix `*.5DCuc  1 p 1 9 ]
+[v infix_to_postfix@postfix postfix `*.5uc  1 p 1 10 ]
+"80
+} 0
+"25
+[v _stack_push stack_push `(v  1 e 1 0 ]
+{
+[s S22 . 22 `[20]uc 1 arr 20 0 `i 1 top 2 20 ]
+[v stack_push@s s `*.39S22  1 p 2 0 ]
+[v stack_push@c c `uc  1 p 1 2 ]
+} 0
+"26
+[v _stack_pop stack_pop `(uc  1 e 1 0 ]
+{
+[s S22 . 22 `[20]uc 1 arr 20 0 `i 1 top 2 20 ]
+[v stack_pop@s s `*.39S22  1 p 2 8 ]
+} 0
+"24
+[v _stack_empty stack_empty `(i  1 e 2 0 ]
+{
+[s S22 . 22 `[20]uc 1 arr 20 0 `i 1 top 2 20 ]
+[v stack_empty@s s `*.39S22  1 p 2 0 ]
+} 0
+"27
+[v _stack_peek stack_peek `(uc  1 e 1 0 ]
+{
+[s S22 . 22 `[20]uc 1 arr 20 0 `i 1 top 2 20 ]
+[v stack_peek@s s `*.39S22  1 p 2 0 ]
+} 0
+"23
+[v _stack_init stack_init `(v  1 e 1 0 ]
+{
+[s S22 . 22 `[20]uc 1 arr 20 0 `i 1 top 2 20 ]
+[v stack_init@s s `*.39S22  1 p 2 0 ]
+} 0
+"46
+[v _infix_compare infix_compare `(i  1 e 2 0 ]
+{
+[v infix_compare@c1 c1 `uc  1 p 1 wreg ]
+[v infix_compare@c1 c1 `uc  1 p 1 wreg ]
+[v infix_compare@c2 c2 `uc  1 p 1 6 ]
+[v infix_compare@c1 c1 `uc  1 p 1 13 ]
+"48
+} 0
+"41
+[v _precedence precedence `(i  1 e 2 0 ]
+{
+[v precedence@c c `uc  1 p 1 wreg ]
+[v precedence@c c `uc  1 p 1 wreg ]
+[v precedence@c c `uc  1 p 1 2 ]
+"45
+} 0
